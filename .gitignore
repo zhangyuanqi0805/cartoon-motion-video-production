@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+node_modules/
+*.local.json
+.env
+.env.*
+assets/v55/assets/body.ttf
+assets/v55/assets/title.ttf
+assets/v55/assets/chalk.ttf

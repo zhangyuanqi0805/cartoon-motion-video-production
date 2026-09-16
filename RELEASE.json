@@ -1,0 +1,12 @@
+{
+  "version": "2026.09.16",
+  "source_skill_commit": "f33228bfa519e7132cf829f47dd21f6c92e3a625",
+  "layout": "V55",
+  "scope": "on-demand reviewed body illustrations; fixed layout and opening",
+  "distribution_changes": [
+    "bundle compatible input modules",
+    "resolve Mac fonts locally with original hashes",
+    "add installation checks and instructions"
+  ],
+  "new_machine_full_production_verified": false
+}

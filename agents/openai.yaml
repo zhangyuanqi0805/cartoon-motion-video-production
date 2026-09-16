@@ -1,0 +1,4 @@
+interface:
+  display_name: "卡通动效视频生产"
+  short_description: "固定V55版面，按需生成并验收变化素材"
+  default_prompt: "请用 $cartoon-motion-video-production 的生产入口把定稿做成卡通动效视频。只换元素，不换版面；新稿默认检查近期素材，不足时按需生成并在V55中验收，再绑定稿件。保留开场布局，交MP4、对比分析和真实验收证据。每版保留对比与质量检查，发布按当次授权执行。"

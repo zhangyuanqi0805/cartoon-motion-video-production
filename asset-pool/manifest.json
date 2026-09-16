@@ -1,0 +1,431 @@
+{
+  "pool_version": "diverse-v55-1",
+  "variants": [
+    {
+      "variant_id": "cover-01",
+      "family": "cover",
+      "path": "assets/v55/assets/intro.png",
+      "sha256": "17e44a9973375c4053bb503c95e45e3956e9fd9d39ed6b10c470aa663098a5a4",
+      "presets": [
+        "__opening__"
+      ],
+      "bind_mode": "intro",
+      "geometry_profile": "cover-1280x720",
+      "motion_family": "intro_v55",
+      "overlay": null,
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "cover-02",
+      "family": "cover",
+      "path": "asset-pool/variants/cover/cover-02.png",
+      "sha256": "fda104209e03ca0f2915d33e8c8a50a6d54a03d4d313f93533ebd50806e0a615",
+      "presets": [
+        "__opening__"
+      ],
+      "bind_mode": "intro",
+      "geometry_profile": "cover-1280x720",
+      "motion_family": "intro_v55",
+      "overlay": null,
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "cover-03",
+      "family": "cover",
+      "path": "asset-pool/variants/cover/cover-03.png",
+      "sha256": "518659b1bf88f01f841c91a13ac31032fb2148c6ca6718e0aecd3e371e701da7",
+      "presets": [
+        "__opening__"
+      ],
+      "bind_mode": "intro",
+      "geometry_profile": "cover-1280x720",
+      "motion_family": "intro_v55",
+      "overlay": null,
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "conversation-01",
+      "family": "conversation",
+      "path": "asset-pool/variants/conversation/conversation-01.png",
+      "sha256": "5985a52f04c7a52dd3ea1e8c081297827ccbc22e8cbac1e595ecdfcb836d9337",
+      "presets": [
+        "listen"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "listen-289x230",
+      "motion_family": "listen_horizontal_repeat_active_v23",
+      "overlay": {
+        "left": 495.625,
+        "top": 57.995866,
+        "width": 288.75,
+        "height": 230.008268
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "conversation-02",
+      "family": "conversation",
+      "path": "asset-pool/variants/conversation/conversation-02.png",
+      "sha256": "a7ece1c96802258341ba117df5e1992c98eb434770af4ee753b0fc495f6eecbb",
+      "presets": [
+        "listen"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "listen-289x230",
+      "motion_family": "listen_horizontal_repeat_active_v23",
+      "overlay": {
+        "left": 495.625,
+        "top": 57.995866,
+        "width": 288.75,
+        "height": 230.008268
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "conversation-03",
+      "family": "conversation",
+      "path": "asset-pool/variants/conversation/conversation-03.png",
+      "sha256": "17dd601af6bc6144db39841be526039b0503542d758a7923e6e0306d99f0be9d",
+      "presets": [
+        "listen"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "listen-289x230",
+      "motion_family": "listen_horizontal_repeat_active_v23",
+      "overlay": {
+        "left": 495.625,
+        "top": 57.995866,
+        "width": 288.75,
+        "height": 230.008268
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "planning-01",
+      "family": "planning",
+      "path": "asset-pool/variants/planning/planning-01.png",
+      "sha256": "6f69b1ba2f5c980be993b604731a651518aa1099ce17b9ec0e32a4e36833f285",
+      "presets": [
+        "notes"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "notes-300x227",
+      "motion_family": "preserved_v12_horizontal_fast",
+      "overlay": {
+        "left": 490.0,
+        "top": 61.3861,
+        "width": 300.0,
+        "height": 227.2277
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "planning-02",
+      "family": "planning",
+      "path": "asset-pool/variants/planning/planning-02.png",
+      "sha256": "86f928f2d27c00a3d9b3ea95f20d0b2c05be0c300797c05adda4172fdbd6d279",
+      "presets": [
+        "notes"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "notes-300x227",
+      "motion_family": "preserved_v12_horizontal_fast",
+      "overlay": {
+        "left": 490.0,
+        "top": 61.3861,
+        "width": 300.0,
+        "height": 227.2277
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "planning-03",
+      "family": "planning",
+      "path": "asset-pool/variants/planning/planning-03.png",
+      "sha256": "ce549e834d940ac324690ad7026d371e20424b479210858ca325388b5f1c5d18",
+      "presets": [
+        "notes"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "notes-300x227",
+      "motion_family": "preserved_v12_horizontal_fast",
+      "overlay": {
+        "left": 490.0,
+        "top": 61.3861,
+        "width": 300.0,
+        "height": 227.2277
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "play-01",
+      "family": "play",
+      "path": "asset-pool/variants/play/play-01.png",
+      "sha256": "da0c1742570d2f7e438018b2794ff9e366d4ae688f6d0dc9106672f45fa6dabb",
+      "presets": [
+        "blocks"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "blocks-213x275",
+      "motion_family": "fine_child_vertical_extended_blur_v24",
+      "overlay": {
+        "left": 30.40545,
+        "top": -0.5,
+        "width": 213.1891,
+        "height": 275.0
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "play-02",
+      "family": "play",
+      "path": "asset-pool/variants/play/play-02.png",
+      "sha256": "bc6b437e44ef92c0e00f05d99f98cde8cfb9078ad95b9743f9d300fded95f67b",
+      "presets": [
+        "blocks"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "blocks-213x275",
+      "motion_family": "fine_child_vertical_extended_blur_v24",
+      "overlay": {
+        "left": 30.40545,
+        "top": -0.5,
+        "width": 213.1891,
+        "height": 275.0
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "play-03",
+      "family": "play",
+      "path": "asset-pool/variants/play/play-03.png",
+      "sha256": "8de1d7d7f746c5fe318fcbfa9909586a842099a74577927b63d4287091850ab7",
+      "presets": [
+        "blocks"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "blocks-213x275",
+      "motion_family": "fine_child_vertical_extended_blur_v24",
+      "overlay": {
+        "left": 30.40545,
+        "top": -0.5,
+        "width": 213.1891,
+        "height": 275.0
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "choice-01",
+      "family": "choice",
+      "path": "asset-pool/variants/choice/choice-01.png",
+      "sha256": "329326adb5b39421915867a92fda9726f8388941812dc4a04f4d7d44fa582096",
+      "presets": [
+        "choices"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "choice-340x173",
+      "motion_family": "preserved_v12_vertical_drop_choices",
+      "overlay": {
+        "left": 15.0,
+        "top": 164.3377,
+        "width": 340.0,
+        "height": 173.3246
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "choice-02",
+      "family": "choice",
+      "path": "asset-pool/variants/choice/choice-02.png",
+      "sha256": "27b88bd82ebabcdbf5ad65fd76950b833cb98b774965312ce7dac234e85f8080",
+      "presets": [
+        "choices"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "choice-340x173",
+      "motion_family": "preserved_v12_vertical_drop_choices",
+      "overlay": {
+        "left": 15.0,
+        "top": 164.3377,
+        "width": 340.0,
+        "height": 173.3246
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "choice-03",
+      "family": "choice",
+      "path": "asset-pool/variants/choice/choice-03.png",
+      "sha256": "0db43a02ed698669e9bf71d20cceb2fffd2452e353b3c1e86cded851e10d8f27",
+      "presets": [
+        "choices"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "choice-340x173",
+      "motion_family": "preserved_v12_vertical_drop_choices",
+      "overlay": {
+        "left": 15.0,
+        "top": 164.3377,
+        "width": 340.0,
+        "height": 173.3246
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "reading-01",
+      "family": "reading",
+      "path": "asset-pool/variants/reading/reading-01.png",
+      "sha256": "84cd6f6433a32d0719bc991fddc0161d5bdd86809b4f56dec7e614e48bd02691",
+      "presets": [
+        "shelf"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "shelf-300x274",
+      "motion_family": "preserved_v12_horizontal_fast",
+      "overlay": {
+        "left": 490.0,
+        "top": 37.931,
+        "width": 300.0,
+        "height": 274.1379
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "reading-02",
+      "family": "reading",
+      "path": "asset-pool/variants/reading/reading-02.png",
+      "sha256": "19ef722adab866e073759d4798e6de2d2fcba847b87ced519cd34f2e6785a3b3",
+      "presets": [
+        "shelf"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "shelf-300x274",
+      "motion_family": "preserved_v12_horizontal_fast",
+      "overlay": {
+        "left": 490.0,
+        "top": 37.931,
+        "width": 300.0,
+        "height": 274.1379
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "reading-03",
+      "family": "reading",
+      "path": "asset-pool/variants/reading/reading-03.png",
+      "sha256": "4e432e4488c223daefe806782508f4f745dde628f54f56cce2c7e158b7c2c0f5",
+      "presets": [
+        "shelf"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "shelf-300x274",
+      "motion_family": "preserved_v12_horizontal_fast",
+      "overlay": {
+        "left": 490.0,
+        "top": 37.931,
+        "width": 300.0,
+        "height": 274.1379
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "together-01",
+      "family": "together",
+      "path": "asset-pool/variants/together/together-01.png",
+      "sha256": "7d827e3a5caa4afd863f6f7e5651f392dc5eadf48c4ed7dab3c6898e442ae702",
+      "presets": [
+        "together"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "together-350x290",
+      "motion_family": "fine_pair_central_growth",
+      "overlay": {
+        "left": 25.1869,
+        "top": 30.0,
+        "width": 349.6262,
+        "height": 290.0
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "together-02",
+      "family": "together",
+      "path": "asset-pool/variants/together/together-02.png",
+      "sha256": "4868acb2e910ecc7bdd0ebb0069ec59459e762e2918e0403265ffac322eb1168",
+      "presets": [
+        "together"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "together-350x290",
+      "motion_family": "fine_pair_central_growth",
+      "overlay": {
+        "left": 25.1869,
+        "top": 30.0,
+        "width": 349.6262,
+        "height": 290.0
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    },
+    {
+      "variant_id": "together-03",
+      "family": "together",
+      "path": "asset-pool/variants/together/together-03.png",
+      "sha256": "09931cfbf09c8d0adde681848b7c0897aaa1f1d745496d8f8862bc41e327faa6",
+      "presets": [
+        "together"
+      ],
+      "bind_mode": "sprite",
+      "geometry_profile": "together-350x290",
+      "motion_family": "fine_pair_central_growth",
+      "overlay": {
+        "left": 25.1869,
+        "top": 30.0,
+        "width": 349.6262,
+        "height": 290.0
+      },
+      "source": "local_v55_approved",
+      "license": "local approved asset; no public redistribution",
+      "status": "approved"
+    }
+  ]
+}

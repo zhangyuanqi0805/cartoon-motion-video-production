@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "template": "F30-V55",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "hyperframes_version": "0.8.35",
+  "voice": {
+    "provider": "Jianying official text reading",
+    "id": "zh_female_mizai_saturn_bigtts",
+    "label": "真人播客女"
+  },
+  "source_html_sha256": "3d51a88f3d032e660e477b127969e11b9ecfcadd2c42566811bcc696f0b5ed8c",
+  "files": {
+    "assets/atlas-a.png": "21cf715ffac4bba76907f74e3eb5e307b43d39b6aeb31708864b26c7dcff7424",
+    "assets/atlas-b.png": "62e86b8bb6f93c6a1154253ff0fc304249428e1201d446ab723a712abbf79e9d",
+    "assets/blocks-fine-v11.png": "5627ab39462b003803e602552ffc943afbd75a048714612bd63da72b50d5f42e",
+    "assets/blocks-flat-v36.svg": "e218e31fa8b5946d7b1b83577ac9833b1d383590d2a8ef5f9ebc11e9b9457d42",
+    "assets/blocks-inner-overlay.svg": "5920587c58f408f381ae2c12584623ecc800fbba848ea9ad43aa5ea1d40b4063",
+    "assets/body.ttf": "3abc6989115e7d8c065f063901d5a8e2c5b9d86812cc04be77160bc49e2e9c27",
+    "assets/chalk.ttf": "12d554b989e67ddc919aa929e3aa9470963ef4d2b642f02e95afea79c6906d4f",
+    "assets/choices-bold-v12.png": "0da0992e5f9048c361bee172fe1e718ded4ef55e6f6406049c9cf25cb95d4af9",
+    "assets/choices-editorial-v40.png": "35132e4a5be0bf46a9b2092187bc5187115872d4d71d488ab70f44d245a0a1a0",
+    "assets/comicneue.ttf": "a0ee5a37c8b27c4db0700137d928598b1e23b0089e1546a8961909176b779360",
+    "assets/draw-fine-v11.png": "764c546967042e2c570969d9bcbc224713ebd2993750177b63d6650e2c31676a",
+    "assets/draw-flat-v36.svg": "f55efaffc9b7901ac72e4855f074978a965902a264cf2c8ec85ff7cf855a62c0",
+    "assets/draw-inner-overlay.svg": "22bb252ad3247025e4893d0f3ef0a8656abe17b2145909652098c8cdf2d80d4d",
+    "assets/english.ttf": "c0fd66626926b637d64eb13de013b3318dbd72cdf92c33e41a29a03828bab6f6",
+    "assets/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+    "assets/intro.png": "17e44a9973375c4053bb503c95e45e3956e9fd9d39ed6b10c470aa663098a5a4",
+    "assets/notes-editorial-v40.png": "db6947cb215fe4fd6b23c76b4a2c1aa2398ca6aaedd33e04b9f8512eb7ff297a",
+    "assets/paper.png": "c133ad522d3c3b7907c6dea88fc4af0d62e2a493d52c6240e63d9d6082425591",
+    "assets/parentphone-identity-v3.svg": "63b212edf4914cc55ca4c85852604e30386ad711b2e57b9c1eb0b6e409ab192e",
+    "assets/praise-identity-v3.svg": "950e962a5a3a6cc28530396cd615535ff5d3a7e1a64757a97d02f8a8e13ce8fc",
+    "assets/shelf-geometric-v39.png": "aa6ab04f714b99de1985ec10dcf206a1f9037720cbcd5c7a085290da03e4303e",
+    "assets/shoes-v42.svg": "39a4c2960ad38d5448aef660376df467704c709ddb65e3664479b639673825bd",
+    "assets/sprites-color-rgb.png": "a358b53986988b3d46d78c37a006d318b852b53a71dc08d6dd71b54babd06688",
+    "assets/sprites.png": "c7c66592ce4102b983215fdedd87fdb18b23fd78aeee384bb757c69c4b574de5",
+    "assets/timer-geometric-v39.png": "a3d45c73349fb7af7f27de11872f59adce06f9d06e7f0dabdbdae1599cae4ff0",
+    "assets/title.ttf": "4470254ac82a03868ab7fb13036634318cc5457a3593317b8f701ff719afe5f9",
+    "assets/together-fine-v11.png": "dd5b14fa6dfd3e5da069f0f3b603d7316d5f1d14cb600bd9e5cfa55d1311387c",
+    "assets/together-flat-v36.svg": "1c5f6cb3d4d5f051768b9cb93f1731cce432544918fae63764c9761100e244e8",
+    "assets/together-inner-overlay.svg": "cb7df3e3ad20ec97eb616550c683c2c011639fdbcf1f40eaa0cd9e1f4d6e1db3",
+    "assets/walk-identity-v3.svg": "d105e4386dd8ed98bda98a3d1ce02236ec600420c9a529238575b5209f106419",
+    "assets/zen-maru-regular.ttf": "a0c0b53543e0993ae2225e629c833f3d51495ad31720694ff112ce4ce11111ef",
+    "caption-types.js": "0c6948dc07b86b4d3cf4543c25eb436dba8ee2f22e30eb1ff512e53a5fb4450e",
+    "index.html": "3d51a88f3d032e660e477b127969e11b9ecfcadd2c42566811bcc696f0b5ed8c"
+  },
+  "motion_contract": "v55-progressive-single-leg-long-span-v3-no-terminal-hold"
+}

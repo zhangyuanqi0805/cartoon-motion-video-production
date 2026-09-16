@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#d6dfcf" fill-opacity=".30"/>
+  <rect x="734" y="104" width="448" height="510" rx="24" fill="#f1e9d6" fill-opacity=".42"/>
+  <image xlink:href="../../atlas-a.png" x="770" y="145" width="380" height="380" preserveAspectRatio="xMidYMid meet"/>
+</svg>

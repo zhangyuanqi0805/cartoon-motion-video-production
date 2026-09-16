@@ -1,0 +1,29 @@
+[
+  {
+    "file": "assets/body.ttf",
+    "collection": "Yuanti.ttc",
+    "family": "Yuanti SC",
+    "style": "Regular",
+    "created": 3449411314,
+    "modified": 3871730227,
+    "sha256": "3abc6989115e7d8c065f063901d5a8e2c5b9d86812cc04be77160bc49e2e9c27"
+  },
+  {
+    "file": "assets/chalk.ttf",
+    "collection": "Hannotate.ttc",
+    "family": "Hannotate SC",
+    "style": "Regular",
+    "created": 3509944919,
+    "modified": 3871730228,
+    "sha256": "12d554b989e67ddc919aa929e3aa9470963ef4d2b642f02e95afea79c6906d4f"
+  },
+  {
+    "file": "assets/title.ttf",
+    "collection": "Lantinghei.ttc",
+    "family": "Lantinghei SC",
+    "style": "Heavy",
+    "created": 3346123085,
+    "modified": 3870649199,
+    "sha256": "4470254ac82a03868ab7fb13036634318cc5457a3593317b8f701ff719afe5f9"
+  }
+]
