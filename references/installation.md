@@ -4,7 +4,16 @@
 
 使用内置 skill-installer，把仓库根目录安装为 `cartoon-motion-video-production`。仓库地址：https://github.com/zhangyuanqi0805/cartoon-motion-video-production 。首次安装可使用安装器的 `--repo zhangyuanqi0805/cartoon-motion-video-production --path . --name cartoon-motion-video-production`；遇到下载故障可使用其 `--method git`。
 
-若仓库为私有，安装者必须先用有访问权限的 GitHub 账号登录；无权限就报告缺口，不尝试绕过。
+本仓库公开，读取、下载与安装不需要 GitHub 账号、登录、访问申请或协作者邀请。不要为下载 Skill 要求使用者申请仓库权限。配音服务登录是另一件事，只在实际配置剪映时按需要处理。
+
+安装器不可用时，可从公开 ZIP 解压到 Codex 的 skills 目录并把目录名设为 `cartoon-motion-video-production`，或在目标目录尚不存在时执行：
+
+```bash
+git clone https://github.com/zhangyuanqi0805/cartoon-motion-video-production.git \
+  "$HOME/.codex/skills/cartoon-motion-video-production"
+```
+
+公开 ZIP：https://github.com/zhangyuanqi0805/cartoon-motion-video-production/archive/refs/heads/main.zip 。网络失败先检查下载通道和实际状态，不把网络问题解释成需要私有仓库授权。
 
 已有旧版时先另存完整备份，再安装更新；个人 `*.local.json`、素材缓存和成品保持在私有工作目录，不从公共仓库覆盖。此次更新不需要修改系统代理或网络配置。安装结果在 Codex 下一轮对话可用。
 

@@ -4,14 +4,27 @@
 
 版本：`2026.09.16`，来自已实测的本地正式版 `f33228b`。本仓库是卡通动效安装入口，与纸纹视频是两个产品。
 
-## 给 Codex 的安装提示词
+## 给同事的安装提示词
+
+**这是公开仓库。同事无需 GitHub 账号、登录或访问申请。** 把下面的提示词交给 Codex，它会完成安装并引导一次性设置。
+
+[下载完整安装提示词](https://raw.githubusercontent.com/zhangyuanqi0805/cartoon-motion-video-production/main/INSTALL_PROMPT.txt) · [查看提示词文件](INSTALL_PROMPT.txt) · [下载完整 Skill ZIP](https://github.com/zhangyuanqi0805/cartoon-motion-video-production/archive/refs/heads/main.zip)
 
 ```text
-请从 https://github.com/zhangyuanqi0805/cartoon-motion-video-production 安装“卡通动效视频生产”Skill，英文名 cartoon-motion-video-production。
-按仓库 references/installation.md 完成安装和环境检查。如果已有旧版，先备份并保留个人配置、素材缓存和成品，再更新。
-保留 V55 版面，新稿默认按需更换正文插画。不要改成纸纹视频，也不要重画模板。
-检查模板哈希、Mac 字体、兼容输入模块、HyperFrames 0.8.35、FFmpeg、ImageMagick、配音配置和生图工具。分别说明“安装完成”“渲染就绪”“新稿配音就绪”；有缺项就列出，不要宣称全部就绪。
-安装后告诉我如何调用，等待我提供定稿，不要自行生成视频。
+请从 GitHub 安装这个 Codex Skill：
+公开仓库：https://github.com/zhangyuanqi0805/cartoon-motion-video-production
+中文名：卡通动效视频生产
+英文名：cartoon-motion-video-production
+
+这是公开仓库，下载和安装不需要 GitHub 账号、登录、访问申请或协作者权限。
+
+请优先调用系统内置的 $skill-installer，用 repo `zhangyuanqi0805/cartoon-motion-video-production`、path `.`、name `cartoon-motion-video-production` 安装仓库根目录的最新版。安装器不可用时，按仓库 references/installation.md 的公开下载或 git clone 方法安装。已有旧版先备份，保留个人配置、素材缓存和成品。
+
+安装后按照 references/installation.md 引导我完成一次性设置：自动检查并配置能自动处理的本地依赖、V55 字体、渲染环境、配音和生图能力；只有确实需要我登录剪映、授予系统权限或处理无法自动完成的缺项时，再清楚告诉我该做什么。缺少配音配置时如实说明，不能把 Skill 安装成功说成完整出片环境已就绪。
+
+制作规则：只换元素，不换 V55 版面。新稿默认按需选择或生成新的正文插画，保持开场布局、标题、字幕和连续动效；每版交 MP4 和与 V55、上一版的对比分析。不要让我逐条填写 JSON、分镜、英文或样式参数。
+
+完成后用中文告诉我如何调用。下一轮 Codex 对话开始使用，等待我提供定稿，不要自行生成视频。
 ```
 
 ## 安装范围
