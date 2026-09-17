@@ -544,7 +544,7 @@ def main():
     imp=sub.add_parser('import-paper');imp.add_argument('--production',type=Path,required=True);imp.add_argument('--visual-plan',type=Path,required=True);imp.add_argument('--output',type=Path,required=True)
     prep=sub.add_parser('prepare');prep.add_argument('--manuscript',type=Path,required=True);prep.add_argument('--content-plan',type=Path,required=True);prep.add_argument('--output',type=Path,required=True)
     prep.add_argument('--config',type=Path,default=PAPER_SKILL_ROOT/'references/auto-config.local.json')
-    prep.add_argument('--whisper-model',type=Path);prep.add_argument('--tempo',type=float,default=1.0)
+    prep.add_argument('--whisper-model',type=Path);prep.add_argument('--tempo',type=float,default=1.10,help='Narration tempo, default 1.10; use 1.0 for original speed')
     a=p.parse_args()
     if a.command=='doctor':
         lock=bundle_lock()

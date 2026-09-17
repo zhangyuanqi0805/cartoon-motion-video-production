@@ -5,7 +5,7 @@ description: Produce cartoon motion videos from confirmed copy in the establishe
 
 # 卡通动效视频生产
 
-**当前包：按需生图正式版，已于2026-09-16获老大确认启用。** 日常制作不修改 Skill 源码；素材内部验收、视频审核与发布授权按当次任务分别判断，不能把 Skill 启用当成每个产物已批准。
+**当前包：2026.09.17 语速校准版；按需生图正式版已于2026-09-16获老大确认启用。** 日常制作不修改 Skill 源码；素材内部验收、视频审核与发布授权按当次任务分别判断，不能把 Skill 启用当成每个产物已批准。
 
 把新稿放入已经认可的 V55 版面：**只换元素，不换版面。** 用户交定稿并要求制作后，Agent 自行读全文、准备音轨与字幕、选图或生图、检查、构建、对比；不要让用户填 JSON。
 
@@ -40,7 +40,7 @@ description: Produce cartoon motion videos from confirmed copy in the establishe
 首次执行读 [生产合同与命令](references/production-contract.md)。需要变化素材时再读 [按需素材合同](references/on-demand-assets.md)。
 
 1. doctor 检查模板及依赖；读完整定稿。用户已要求按该稿制作就沿用授权，不重复确认。
-2. 已有同稿配音包用 import-paper；新稿用 prepare 后再 import-paper。纸纹 Skill 仅提供已验证的稿件/官方配音/token 时间轴，不提供本片画面或布局。
+2. 已有同稿配音包用 import-paper；新稿用 prepare 后再 import-paper。纸纹 Skill 仅提供已验证的稿件/官方配音/token 时间轴，不提供本片画面或布局。 新稿默认配音1.10倍原速，保持音高；用户明确要求原速时用 --tempo 1.0。复用音频前读取 audio-manifest.json 的 tempo_ratio，不能把旧1.0母带当作新版1.10，也不能给已加速母带重复加速；需要调整时，从原始TTS音频在新目录重建母带和字幕对齐。
 3. Agent 按真实语音写 visual-plan，导入得到 source-job。diverse-v55 先 plan，再按 brief 调用可用的生图工具。生图工具由 Agent 调用，脚本本身不会凭空访问 ChatGPT 或付费 API。
 4. 新素材逐个 check → preview_assets.py 生成未入库预览 → 实际查看原图与 V55 页面 → 记录视觉观察和证据 → admit 到当前任务缓存 → bind 成稿件专属包。技术通过不等于视觉通过；未经查看不得填全通过。
 5. 在新目录 build --seconds 30、check --runtime、render、verify。实际查看最终 MP4 的字幕分页、正文运动与切换条带，和同稿 V55 对照。

@@ -22,7 +22,7 @@ python3 "$cartoon_skill/scripts/make_video.py" doctor
 python3 "$cartoon_skill/scripts/make_video.py" prepare --manuscript /abs/path/定稿.md --content-plan /abs/path/content-plan.json --output /abs/path/input-v1
 ```
 
-`prepare` 只编排原稿/确认合同 → 官方真人播客女 TTS → 无损拆卡 → 音频母带 → Whisper full JSON → token alignment。默认原速 `--tempo 1.0`，不自动继承纸纹的加速比。`--config` 指定已验证配音配置，`--whisper-model` 指定模型；默认读取兼容输入模块的 `references/auto-config.local.json`（个人配置，首次安装需单独提供；推荐通过 --config 显式指定）。不要打印或复制密钥。剪映动态库/配音器校验失败就停，不换系统音色。
+`prepare` 只编排原稿/确认合同 → 官方真人播客女 TTS → 无损拆卡 → 音频母带 → Whisper full JSON → token alignment。新稿默认 `--tempo 1.10`，比原始TTS快10%，使用 FFmpeg atempo 保持音高；不继承纸纹的1.27倍默认值，不对句尾单独做降速。用户明确要求原速时传 `--tempo 1.0`。音频处理后按实际母带重建字幕时间轴；Whisper原始token时间由配套对齐器按 `1/tempo_ratio` 换算，不沿用旧时间轴。复用配音包前读取 `audio-manifest.json` 的 `tempo_ratio`；需要改速时从原始TTS音频另建母带和对齐，不对已加速母带再次加速。`--config` 指定已验证配音配置，`--whisper-model` 指定模型；默认读取兼容输入模块的 `references/auto-config.local.json`（个人配置，首次安装需单独提供；推荐通过 --config 显式指定）。不要打印或复制密钥。剪映动态库/配音器校验失败就停，不换系统音色。
 
 成功状态 `INPUT_READY_NOT_RENDERED`；失败保留证据，修正后新建版本。
 
